@@ -16,7 +16,7 @@ export default function Landing() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+                "url('https://user-images.githubusercontent.com/47992691/176894686-611ff20c-1530-4c1b-a78f-0f9928a3b580.jpg')",
             }}
           >
             <span
@@ -29,12 +29,10 @@ export default function Landing() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                  قصتكم تبدأ معنا.
+                    قصتكم تبدأ معنا
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+                    مغامرات - تحديات - حياة الخلاء
                   </p>
                 </div>
               </div>
@@ -68,12 +66,12 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                      <i className="fas fa-award"></i>
+                      <i className="fas fa-flag"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Awarded Agency</h6>
+                    <h6 className="text-xl font-semibold">حب الوطن</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Divide details about your product or agency work into
-                      parts. A paragraph describing a feature will be enough.
+                      توعية الكشاف حول أهمية حب الوطن و تقديس تحية العلم في
+                      المخيمات و الرحلات
                     </p>
                   </div>
                 </div>
@@ -83,12 +81,12 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
-                      <i className="fas fa-retweet"></i>
+                      <i className="fas fa-campground"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Free Revisions</h6>
+                    <h6 className="text-xl font-semibold">مخيمات عالمية</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Keep you user engaged by providing meaningful information.
-                      Remember that by this time, the user is curious.
+                      تنظيم مخيمات و رحلات في كامل تراب الجمهورية
+                      <br />و المشاركة في المخيمات العالمية
                     </p>
                   </div>
                 </div>
@@ -98,12 +96,11 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
-                      <i className="fas fa-fingerprint"></i>
+                      <i class="fas fa-atom"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Verified Company</h6>
+                    <h6 className="text-xl font-semibold">تعلم متواصل</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Write a few lines about each one. A paragraph describing a
-                      feature will be enough. Keep you user engaged!
+                      من خلال ورشات تكوينية في مختلف المجالات
                     </p>
                   </div>
                 </div>
@@ -265,26 +262,24 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Here are our heroes</h2>
+                <h2 className="text-4xl font-semibold">إطار الفوج</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                  : كل أنشطتنا تحت تنظيم و مسؤولية إطارنا الكفؤ المتكون من
                 </p>
               </div>
             </div>
             <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
+              <div className="w-full md:w-1/2 px-4">
+                <div className="flex flex-col items-center">
                   <img
                     alt="..."
-                    src="/img/team-1-800x800.jpg"
+                    src="/img/team/raouf-ayouni-scouts.jpg"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Ryan Tompson</h5>
+                    <h5 className="text-xl font-bold">حسان الزليط</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Web Developer
+                    قائد الفوج  
                     </p>
                     <div className="mt-6">
                       <button
@@ -313,13 +308,48 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="/img/team-2-800x800.jpg"
+                    src="/img/team/hassen-zellit-scouts.jpg"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Romina Hadid</h5>
+                    <h5 className="text-xl font-bold">حسان الزليط</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Marketing Specialist
+                      قائد فرقة أشبال البساتين
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <i className="fab fa-twitter"></i>
+                      </button>
+                      <button
+                        className="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <i className="fab fa-facebook-f"></i>
+                      </button>
+                      <button
+                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <i className="fab fa-dribbble"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src="/img/team/aziz-brb-scouts.jpg"
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">عزيز بن رابح</h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      قائد فرقة أشبال البساتين
                     </p>
                     <div className="mt-6">
                       <button
@@ -342,13 +372,13 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="/img/team-3-800x800.jpg"
+                    src="/img/team/raouia-bouchriha-scouts.jpg"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Alexa Smith</h5>
+                    <h5 className="text-xl font-bold">راوية بوشريحة</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      UI/UX Designer
+                      قائدة فرقة المرشدات
                     </p>
                     <div className="mt-6">
                       <button
@@ -381,9 +411,9 @@ export default function Landing() {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Jenna Kardi</h5>
+                    <h5 className="text-xl font-bold">سرور المضحكة</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Founder and CEO
+                      قائدة باقة الزهرات
                     </p>
                     <div className="mt-6">
                       <button
