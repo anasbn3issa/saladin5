@@ -108,27 +108,20 @@ export default function Landing() {
             </div>
 
             <div className="flex flex-wrap items-center mt-32">
+              
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
-                <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
+                <h3 className="text-3xl mb-2 font-semibold text-right leading-normal">
+                العمل معنا متعة
                 </h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-right text-blueGray-600">
+                ينظم فوج المروج 1 أنشطة سنوية مختلفة من أجل التعريف بالحركة الكشفية و عبر ذلك : مساعدة أبناء المنطقة، توعية الشباب من خلال توكيلهم مسؤوليات مناسبة لعمرهم
                 </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go. Just make sure you enable them first via
-                  JavaScript.
-                </p>
-                <Link href="/">
-                  <a href="#pablo" className="font-bold text-blueGray-700 mt-8">
-                    Check Notus NextJS!
+                <Link href="/activities">
+                  <a href="/activities" className="font-bold text-blueGray-700 mt-8">
+                  ! زورو صفحة الأنشطة
                   </a>
                 </Link>
               </div>
@@ -137,7 +130,7 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                    src="https://user-images.githubusercontent.com/47992691/177042379-3ffd76aa-0cb9-4978-8870-e40069948665.jpg"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -153,13 +146,8 @@ export default function Landing() {
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white">
-                      Top Notch Services
+                    صورة من مخيم الربيع 2022 في زغوان 
                     </h4>
-                    <p className="text-md font-light mt-2 text-white">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
-                    </p>
                   </blockquote>
                 </div>
               </div>
@@ -277,7 +265,7 @@ export default function Landing() {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">حسان الزليط</h5>
+                    <h5 className="text-xl font-bold">رؤوف العيوني</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                     قائد الفوج  
                     </p>
@@ -349,7 +337,7 @@ export default function Landing() {
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">عزيز بن رابح</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      قائد فرقة أشبال البساتين
+                    قائد فرقة صلاح الدين الأيوبي 5  
                     </p>
                     <div className="mt-6">
                       <button
